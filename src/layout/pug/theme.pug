@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        include ../../snippets/pug/style-tags
+        include ../../snippets/pug/script-tags
+
+        title Gulp-shopify
+    body
+        #content
+            header
+                include ../../sections/pug/header
+
+            main
+                block content_for_layout
+
+            footer
+                include ../../sections/pug/footer

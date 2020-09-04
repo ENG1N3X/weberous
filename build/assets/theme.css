@@ -1,0 +1,18 @@
+body {
+  background: pink;
+}
+
+section {
+  color: red;
+  text-align: center;
+}
+
+header {
+  color: green;
+  text-align: center;
+}
+
+footer {
+  color: blue;
+  text-align: center;
+}

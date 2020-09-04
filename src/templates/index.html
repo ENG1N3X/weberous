@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Vendor CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <!-- Local-->
+    <link rel="stylesheet" href="../assets/theme.css"/>
+    <!-- Vendor CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <!-- Local-->
+    <script src="../assets/theme.js"></script>
+    <title>Gulp-shopify</title>
+  </head>
+  <body>
+    <div id="content">
+      <header>
+        <div class="container">
+          <h1>hello from sections > header</h1>
+        </div>
+      </header>
+      <main>
+        <section class="container">
+          <h1>{{ content_for_layout }}</h1>
+        </section>
+        <section class="container">
+          <h1>This section include in templates/index</h1>
+        </section>
+      </main>
+      <footer>
+        <div class="container">
+          <h1>hello from sections > footer</h1>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
