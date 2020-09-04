@@ -99,6 +99,7 @@ gulp.task("build", async () => {
   gulp.src("src/sections/*.html").pipe(gulp.dest("build/sections"));
   gulp.src("src/snippets/*.html").pipe(gulp.dest("build/snippets"));
   gulp.src("src/templates/*.html").pipe(gulp.dest("build/templates"));
+  gulp.src("src/static/**").pipe(gulp.dest("build/static"));
 });
 
 gulp.task("default", gulp.parallel("styles", "styles-libs", "scripts", "pug-layout", "pug-sections", "pug-templates", "pug-snippets", "watch", "browser-sync"));
