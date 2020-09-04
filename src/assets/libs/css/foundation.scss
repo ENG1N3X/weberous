@@ -2,14 +2,11 @@
 // src: https://github.com/foundation/foundation-sites/tree/master/scss
 
 // Settings
-// @import "node_modules/foundation-sites/scss/settings/_settings"; - not work
+@import "settings.scss";
 
 // Foundation
 @import "node_modules/foundation-sites/scss/foundation";
 // @include foundation-everything; // import all abouts foundation-sites
-
-// Settings
-// @include add-foundation-colors;
 
 // Normalize
 @include foundation-normalize; // without fonts, colors, etc
