@@ -1,7 +1,9 @@
 extends ../../layout/pug/theme.pug
 
 block content_for_layout
-    section.container
-        h1 {{ content_for_layout }}
+    section.grid-container
+        .grid-x.align-center
+            .cell.small-6.medium-10.large-8(style="background: #000")
+                h1 {{ content_for_layout }}
 
     include ../../sections/pug/section-for-templates-index

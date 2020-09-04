@@ -1,0 +1,28 @@
+// Import foundation-sites lib
+// src: https://github.com/foundation/foundation-sites/tree/master/scss
+
+// Settings
+// @import "node_modules/foundation-sites/scss/settings/_settings"; - not work
+
+// Foundation
+@import "node_modules/foundation-sites/scss/foundation";
+// @include foundation-everything; // import all abouts foundation-sites
+
+// Settings
+// @include add-foundation-colors;
+
+// Normalize
+@include foundation-normalize; // without fonts, colors, etc
+// @include foundation-global-styles; // with fonts, color, etc
+
+// Grids (choose one)
+@include foundation-xy-grid-classes; // grid-x, grid-y
+// @include foundation-grid;
+// @include foundation-flex-grid;
+
+// Visibility
+@include foundation-visibility-classes; // display, visibility
+
+// Helpers
+@include foundation-flex-classes; // justify-content, align-items
+@include foundation-prototype-classes; // paddings, margins, etc.
