@@ -21,6 +21,7 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
+    "clean": "rm -rf build",
     "sass": "sass src/assets/sass/styles.sass src/assets/sass/styles.scss"
   },
   "repository": {
