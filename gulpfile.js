@@ -20,7 +20,7 @@ gulp.task("styles", function () {
 gulp.task("styles-libs", function () {
   return gulp
     .src("./src/assets/libs/css/*.+(scss|sass|css)")
-    .pipe(sass({ outputStyle: "compressed" }))
+    .pipe(sass()) // { outputStyle: "compressed" }
     .pipe(gulp.dest("src/assets"))
     .pipe(browserSync.reload({ stream: true }));
 });
