@@ -9,8 +9,8 @@
 // @include foundation-everything; // import all abouts foundation-sites
 
 // Normalize
-@include foundation-normalize; // without fonts, colors, etc
-// @include foundation-global-styles; // with fonts, color, etc
+// @include foundation-normalize; // without fonts, colors, etc
+@include foundation-global-styles; // with fonts, color, etc
 
 // Grids (choose one)
 @include foundation-xy-grid-classes; // grid-x, grid-y
@@ -23,3 +23,5 @@
 // Helpers
 @include foundation-flex-classes; // justify-content, align-items
 @include foundation-prototype-classes; // paddings, margins, etc.
+@include foundation-typography; // text positions
+@include foundation-forms; // forms
